@@ -1,5 +1,5 @@
-from classes.engine_classes import*
-from classes.classes import*
+from classes.engine_classes import HH, SuperJob
+from classes.classes import HHVacancy, SJVacancy
 
 
 def print_info(data: list | str):

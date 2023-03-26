@@ -1,8 +1,8 @@
 import os
 
-from classes.engine_classes import *
-from utils.utils import *
-
+from classes.engine_classes import Engine, HH, SuperJob
+from utils.utils import get_top_vacancies_by_date, print_info, check_search, \
+    get_top_vacancies_by_to_salary
 
 def main():
 
