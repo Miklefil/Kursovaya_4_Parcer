@@ -4,8 +4,8 @@ from classes.engine_classes import Engine, HH, SuperJob
 from utils.utils import get_top_vacancies_by_date, print_info, check_search, \
     get_top_vacancies_by_to_salary
 
-def main():
 
+def main():
     path = os.path.join('data/all.json')
     connector = Engine.get_connector(path)
 
