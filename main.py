@@ -6,6 +6,7 @@ from utils.utils import get_top_vacancies_by_date, print_info, check_search, \
 
 
 def main():
+
     path = os.path.join('data/all.json')
     connector = Engine.get_connector(path)
 
